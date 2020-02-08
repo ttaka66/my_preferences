@@ -2,6 +2,5 @@ tap "homebrew/bundle"
 tap "homebrew/core"
 
 brew "postgresql"
-brew "pyenv"
-brew "rbenv"
-brew "nodenv"
+brew "anyenv"
+brew "yarn"
