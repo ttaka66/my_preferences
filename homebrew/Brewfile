@@ -4,3 +4,8 @@ tap "homebrew/core"
 brew "postgresql"
 brew "anyenv"
 brew "yarn"
+brew "imagemagick@6"
+brew "pkg-config"
+brew "tree"
+brew "awscli"
+
