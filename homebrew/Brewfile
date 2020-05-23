@@ -8,4 +8,5 @@ brew "imagemagick@6"
 brew "pkg-config"
 brew "tree"
 brew "awscli"
+brew "direnv"
 
