@@ -1,12 +1,8 @@
 # 各種アプリケーションの設定
 
-## VsCode
+## VSCode
 
-### setting.json
-
-```
-ln -s ~/my_preferences/vscode/settings.json ~/Library/ApplicationSupport/Code/User/settings.json
-```
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)を利用する
 
 ## Homebrew
 
