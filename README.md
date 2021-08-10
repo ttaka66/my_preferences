@@ -1,15 +1,20 @@
 # 各種アプリケーションの設定
 
-## VSCode
-
-[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)を利用する
-
 ## Homebrew
 
 [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle)を利用している
 
+### 初期設定
+
 ```
-ln -s ~/my_preferences/homebrew/Brewfile ~/Brewfile
+ln -s path/to/my_preferences/homebrew/Brewfile ~/Brewfile
+```
+
+### 更新
+
+```
 cd ~/
+brew update
+brew upgrade --cask
 brew bundle
 ```
